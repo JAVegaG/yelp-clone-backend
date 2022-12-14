@@ -1,0 +1,13 @@
+# Env variables
+
+.env*
+
+# dependencies
+/node_modules
+
+
+# Unnecessary files
+
+Dockerfile
+.dockerignore
+.git*
