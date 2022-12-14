@@ -32,7 +32,7 @@ jobs:
             julianvega/yelp-clone-backend
           # generate Docker tags based on the following events/attributes
           tags: |
-            type=ref,event=branch,suffix=-{{sha}}
+            type=ref,event=branch,suffix=_{{sha}}
             type=semver,pattern={{version}}
       -
         name: Set up QEMU
