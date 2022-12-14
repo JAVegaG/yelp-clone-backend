@@ -10,6 +10,7 @@ on:
   push:
     branches:
       - develop
+      - release_*
     tags:
       - v*
 #  workflow_dispatch:
